@@ -1,0 +1,33 @@
+{
+  "name": "spark",
+  "version": "1.0.0",
+  "description": "饰品",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "crop:products": "node scripts/crop-sheets.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxiniiiiiii/spark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/xiaoxiniiiiiii/spark/issues"
+  },
+  "homepage": "https://github.com/xiaoxiniiiiiii/spark#readme",
+  "dependencies": {
+    "lucide-react": "^1.64.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.5"
+  }
+}
